@@ -79,7 +79,7 @@ def analyze_url():
 def compare_summary():
 	return render_template('compare_summary.html')
 
-@app.route('/comparer',methods=['GET','POST'])
+@app.route('/compare',methods=['GET','POST'])
 def comparer():
 	start = time.time()
 	if request.method == 'POST':
