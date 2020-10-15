@@ -3,7 +3,7 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize, sent_tokenize
 import heapq  
 
-nltk.download('punkt')
+# nltk.download('punkt')
 # nltk.download()
 
 def nltk_summarizer(raw_text):
