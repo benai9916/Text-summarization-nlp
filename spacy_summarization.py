@@ -8,7 +8,6 @@ from string import punctuation
 from heapq import nlargest
 
 
-
 def text_summarizer(raw_docx):
     raw_text = raw_docx
     docx = nlp(raw_text)
